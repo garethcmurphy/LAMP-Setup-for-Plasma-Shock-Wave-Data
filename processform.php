@@ -2,6 +2,7 @@
 <img src="plasma_logo.gif">
 </div>
 
+<div align=center>
 
 <?php
 
@@ -50,3 +51,5 @@ while ($r=$q->fetch(PDO::FETCH_ASSOC)) {
 
 echo ('</table>');
 ?>
+
+</div>
