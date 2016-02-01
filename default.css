@@ -1,0 +1,42 @@
+    text-align: center;
+    color: hsla(200,50%,45%,0.6);
+    margin: auto;
+    font-family: monospace;
+    letter-spacing: 2px;
+    position: relative;
+    top: -13px;
+    margin: 20px auto 20px auto;
+    width: 60%;
+}
+
+.navigation table{
+    height: 70px;
+}
+
+th{
+text-align: center;
+color: hsla(180,50%,45%,0.4);
+font-size: 1.1em;
+}
+
+table{
+border-collapse: collapse;
+margin: auto;
+margin-top: 0px;
+}
+
+table,th{
+border: 0px solid black;
+padding: 5px;
+}    
+
+
+.navigation a{
+    text-decoration: none;
+    background-color: transparent, white;
+    text-transform: lowercase;
+    font-size: 1.2em;
+    letter-spacing: 0px;
+    width: 50px;
+    height: 100px;
+}

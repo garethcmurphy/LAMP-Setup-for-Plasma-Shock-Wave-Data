@@ -16,8 +16,23 @@ include("./SQLTables.php");
 </div>
 
 <div align="center">
-  <h2>Plasma Shock Simulations</h2>
 
+<div class="navigation" align="center">
+    <table>
+        <tr>
+            <td><a href="index.html">Home</a></td>
+            <td>&nbsp;</td>
+            <td><a href="about.html">about</a></td>
+            <td>&nbsp;</td>
+            <td><a href="sort2.php">browse</a></td>
+            <td>&nbsp;</td>
+            <td><a href="modelling.html">modelling</a></td>
+            <td>&nbsp;</td>
+            <td><a href="contact.php">contact</a></td>
+        </tr>
+    </table>
+</div>
+<div class="maincontainer" >
 
   The database contains information on the initial conditions of PIC plasma shock simulations, counterstreaming, piston-type and shock-tube type configurations.
 <p><?php
