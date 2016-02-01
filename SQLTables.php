@@ -17,7 +17,7 @@ function display_db_query($page, $query_string, $connection, $sort, $image, $tab
 		print("<TR ALIGN=LEFT VALIGN=TOP>");
 		for($column_num = 0; $column_num < $column_count; $column_num++) {
 			if($column_num==0 && $image){
-			   print("<TD><img src=imageLoader.php?image=amf_bowling</TD>\n");
+			   print("<TD><img src=imageLoader.php?image=violin</TD>\n");
 			}
 			else{
 			   print("<TD>$row[$column_num]</TD>\n");

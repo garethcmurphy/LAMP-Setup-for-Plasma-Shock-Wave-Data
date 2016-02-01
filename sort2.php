@@ -1,9 +1,16 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3 .org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3 .org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>PIC Shock Simulation Database</title>
+
+
+
+<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+
+
 </head>
 <?php
 include("./SQLTables.php");
@@ -15,14 +22,13 @@ include("./SQLTables.php");
 <img src="plasma_logo.gif">
 </div>
 
-<div align="center">
 
 <div class="navigation" align="center">
     <table>
         <tr>
-            <td><a href="index.html">Home</a></td>
+            <td><a href="index.html">home</a></td>
             <td>&nbsp;</td>
-            <td><a href="about.html">about</a></td>
+            <td><a href="about.html">search</a></td>
             <td>&nbsp;</td>
             <td><a href="sort2.php">browse</a></td>
             <td>&nbsp;</td>
@@ -32,9 +38,12 @@ include("./SQLTables.php");
         </tr>
     </table>
 </div>
+<div align="center">
 <div class="maincontainer" >
 
-  The database contains information on the initial conditions of PIC plasma shock simulations, counterstreaming, piston-type and shock-tube type configurations.
+<div>
+Click on a heading to sort by value
+</div>
 <p><?php
   //Connection
 	$global_dbh = mysql_connect('localhost','root','') or die("Unable to connect: " . mysql_error() . "<br>");

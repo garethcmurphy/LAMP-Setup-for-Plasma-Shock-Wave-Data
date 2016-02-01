@@ -56,7 +56,7 @@ if(!this.value){this.value=’Lampe’};
         <tr>
             <td><a href="index.html">Home</a></td>
             <td>&nbsp;</td>
-            <td><a href="about.php">about</a></td>
+            <td><a href="about.html">search</a></td>
             <td>&nbsp;</td>
             <td><a href="sort2.php">browse</a></td>
             <td>&nbsp;</td>
