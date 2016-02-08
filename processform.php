@@ -45,7 +45,7 @@ echo " You searched for  $keyword in range between $minrange and $maxrange";
 while ($r=$q->fetch(PDO::FETCH_ASSOC)) {
 //    echo"<pre>".print_r($r,true)."</pre>";
  echo('<tr>');
-    echo '   <td>  config = '.$r['Config'].'  </td > <td>ref= '.$r['Reference'].' </td><td>gam= '.$r['Gamma'].'</td>' ,PHP_EOL; //etc...
+    echo '   <td>  config = '.$r['Config'].'  </td > <td>ref= '.$r['Reference'].' </td><td>gam= '.$r['Gamma'].'</td><td><img src='.$r['data'].'> </td>' ,PHP_EOL; //etc...
      echo('</tr>');
 }
 
